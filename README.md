@@ -1,2 +1,41 @@
-# Background-tasks-with-NodeJS-and-Redis
-Criação de uma aplicação básica para criação de usuários utilizando um sistema de fila para envio de e-mails utilizando NodeJS e Redis.
+# Tarefas em segundo plano com NodeJS e Redis
+Criação de uma aplicação básica para envio de e-mails em segundo plano utilizando filas de tarefas com NodeJS e Redis.
+
+# Getting started
+Para executar esta aplicação, será necessário:
+
+### • [Node.JS](https://nodejs.org/en/)
+
+### • [Redis](https://redis.io/download)
+Para instalar o Redis utilizando o docker, no prompt de comando execute:
+> docker pull redis
+
+# Recursos e Bibliotecas
+#### • node.js
+Para a criação do servidor
+#### • redis
+Banco de dados não relacional para persistência dos dados
+#### • [nodemailer](https://github.com/nodemailer/nodemailer)
+Para envio dos e-mails
+#### • [password-generator](https://github.com/bermi/password-generator)
+Para a geração de senhas aleatórias apenas para teste da aplicação
+#### • [bull](https://github.com/OptimalBits/bull)
+Para o processamento das filas de tarefas
+#### • [bull-board](https://github.com/vcapretz/bull-board)
+Painel para visualização das filas de tarefas
+
+# Comandos
+* npm init
+* npm install express nodemailer dotenv
+* npm install nodemon sucrase -D
+* npm install password-generator
+* npm install bull
+* npm install bull-board
+
+# Routes
+• {baseUrl}/Users
+
+• {baseUrl}/admin/queues
+
+### tags
+nodejs, redis, nodemailer, bull, queue, background tasks, task
