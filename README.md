@@ -39,5 +39,8 @@ Painel para visualização das filas de tarefas
 
 • {baseUrl}/admin/queues
 
+# License
+Completamenta gratuito para uso e cópia, desde que com os devidos créditos (fork please!).
+
 ### tags
 nodejs, redis, nodemailer, bull, queue, background tasks, task
