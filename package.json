@@ -1,0 +1,42 @@
+{
+  "name": "background-tasks-with-nodejs-and-redis",
+  "version": "1.0.0",
+  "description": "Creating task queues in the background for a user creation application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcosta21/Background-Tasks-with-NodeJS-and-Redis.git"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "docker",
+    "express",
+    "nodemailer",
+    "queue",
+    "background-tasks",
+    "task"
+  ],
+  "author": "Pedro Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcosta21/Background-Tasks-with-NodeJS-and-Redis/issues"
+  },
+  "homepage": "https://github.com/pcosta21/Background-Tasks-with-NodeJS-and-Redis#readme",
+  "dependencies": {
+    "bull": "^3.13.0",
+    "bull-board": "^0.7.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6",
+    "password-generator": "^2.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "sucrase": "^3.13.0"
+  }
+}
