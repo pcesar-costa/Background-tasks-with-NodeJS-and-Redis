@@ -1,5 +1,5 @@
 # Tarefas em segundo plano com NodeJS e Redis
-Criação de uma aplicação básica para envio de e-mails em segundo plano utilizando filas de tarefas com NodeJS e Redis.
+Criação de uma aplicação básica de cadastro de usuário e envio de e-mails em segundo plano utilizando filas de tarefas com NodeJS e Redis.
 
 ![](https://github.com/pcosta21/Background-tasks-with-NodeJS-and-Redis/blob/master/painel.png?raw=true)
 
