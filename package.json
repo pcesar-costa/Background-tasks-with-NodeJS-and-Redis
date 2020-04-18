@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/pcosta21/Background-Tasks-with-NodeJS-and-Redis#readme",
   "dependencies": {
+    "@sentry/node": "^5.15.4",
     "bull": "^3.13.0",
     "bull-board": "^0.7.0",
     "dotenv": "^8.2.0",
