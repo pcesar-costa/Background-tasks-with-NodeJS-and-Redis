@@ -25,6 +25,8 @@ Para a geração de senhas aleatórias apenas para teste da aplicação
 Para o processamento das filas de tarefas
 #### • [bull-board](https://github.com/vcapretz/bull-board)
 Painel para visualização das filas de tarefas
+#### • Sentry
+Monitoramento de erros 
 
 # Comandos
 * npm init
@@ -33,6 +35,7 @@ Painel para visualização das filas de tarefas
 * npm install password-generator
 * npm install bull
 * npm install bull-board
+* npm install @sentry/node
 
 # Routes
 • {baseUrl}/Users
@@ -43,4 +46,4 @@ Painel para visualização das filas de tarefas
 Completamenta gratuito para uso e cópia, desde que com os devidos créditos (fork please!).
 
 ### tags
-nodejs, redis, nodemailer, bull, queue, background tasks, task
+nodejs, redis, nodemailer, bull, queue, background tasks, task, sentry
