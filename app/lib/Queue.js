@@ -1,6 +1,7 @@
 import Queue from 'bull';
-import redisCredentials from '../config/redis';
 
+import Sentry from '../config/sentry';
+import redisCredentials from '../config/redis';
 import * as jobs from '../jobs';
 
 const queues = Object.values(jobs).map(job => ({
@@ -20,9 +21,8 @@ export default {
         return this.queues.forEach(queue => {
             queue.bull.process(queue.handle);
             queue.bull.on('failed', (job, err) => {
-                console.log('-------------------------------');
-                console.log('Job failed', queue.key, job.data);
-                console.log(err)
+                //console.log('Job failed', queue.key, job.data);
+                Sentry.captureMessage(err);
             });
         })
     }
