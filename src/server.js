@@ -2,9 +2,9 @@ import "dotenv/config";
 import express from "express";
 import BullBoard from 'bull-board';
 
-import Sentry from '../app/config/sentry';
-import UserController from '../app/controllers/UserController'
+import Sentry from '../app/lib/Sentry';
 import Queue from '../app/lib/Queue';
+import UserController from '../app/controllers/UserController'
 
 const app = express();
 
