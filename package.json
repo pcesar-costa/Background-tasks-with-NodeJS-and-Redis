@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/server.js",
+    "redis": "docker run -d -p 6379:6379 -i -t redis",
     "queue": "nodemon src/queue.js"
   },
   "repository": {
