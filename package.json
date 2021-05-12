@@ -35,7 +35,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mailgun-js": "^0.22.0",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "password-generator": "^2.2.3",
     "yup": "^0.28.3"
   },
